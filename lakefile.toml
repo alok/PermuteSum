@@ -1,0 +1,10 @@
+name = "PermuteSum"
+version = "0.1.0"
+defaultTargets = ["permutesum"]
+
+[[lean_lib]]
+name = "PermuteSum"
+
+[[lean_exe]]
+name = "permutesum"
+root = "Main"
